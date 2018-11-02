@@ -1,0 +1,8 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    repo: bambutz/ragemp
+    auto_tag: true
+    secrets: [ docker_username, docker_password ]
+
+branches: [master]
