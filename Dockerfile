@@ -22,4 +22,4 @@ RUN apt update && \
 
 VOLUME /ragemp
 ADD entrypoint.sh /home
-ENTRYPOINT ["/home/entrypoint.sh"]
+ENTRYPOINT ["sh /home/entrypoint.sh"]
