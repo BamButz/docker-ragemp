@@ -2,7 +2,6 @@ FROM debian:9-slim
 LABEL maintainer="BamButz \"bambutz@cryptonica.de\""
 
 # Expose Ports
-EXPOSE 20005
 EXPOSE 22005/udp
 EXPOSE 22006
 
@@ -21,5 +20,5 @@ RUN apt update && \
 
 
 VOLUME /ragemp
-ADD entrypoint.sh /home
-ENTRYPOINT ["sh /home/entrypoint.sh"]
+ADD entrypoint.sh /home/entrypoint.sh
+ENTRYPOINT ["sh", "/home/entrypoint.sh"]
