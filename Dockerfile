@@ -13,12 +13,13 @@ RUN apt update && \
     apt install wget gcc -y && \
     wget -O /tmp/server.tar.gz https://cdn.rage.mp/lin/ragemp-srv-036.tar.gz && \
 	tar -xzf /tmp/server.tar.gz -C /tmp && \
-	mv /tmp/ragemp-srv/server /home/server && \
-	mv /tmp/ragemp-srv/bt.dat /home/bt.dat && \
-	chmod +x /home/server && \
+	mkdir /serverfiles && \
+	mv /tmp/ragemp-srv/server /serverfiles/server && \
+	mv /tmp/ragemp-srv/bt.dat /serverfiles/bt.dat && \
+	chmod +x /serverfiles/server && \
 	mkdir /ragemp
 
-
 VOLUME /ragemp
+
 ADD entrypoint.sh /home/entrypoint.sh
 ENTRYPOINT ["sh", "/home/entrypoint.sh"]

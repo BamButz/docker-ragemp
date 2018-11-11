@@ -1,8 +1,7 @@
 #!/bin/sh
 
 echo "Copy server binaries"
-cp -v /home/server /ragemp/server
-cp -v /home/bt.dat /ragemp/bt.dat
+cp -v -R /serverfiles/* /ragemp/
 
 echo "Run Server"
 cd /ragemp
