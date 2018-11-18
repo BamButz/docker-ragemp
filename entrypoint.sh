@@ -4,7 +4,6 @@ echo "Copy server files"
 cp -v -R /serverfiles/* /ragemp/
 
 echo "Set config variables"
-
 sed "s/{ANNOUNCE}/${RAGEMP_ANNOUNCE:=false}/g" -i /ragemp/conf.json
 sed "s/{BIND}/${RAGEMP_BIND:=0.0.0.0}/g" -i /ragemp/conf.json
 sed "s/{GAMEMODE}/${RAGEMP_GAMEMODE:=freeroam}/g" -i /ragemp/conf.json

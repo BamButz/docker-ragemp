@@ -5,7 +5,7 @@ https://hub.docker.com/r/bambutz/ragemp/
 
 ### Sample
 ```sh
-docker run --name ragemp -p 20005:20005 -p 22005:22005/udp -p 22006:22006 -v /opt/ragemp:/ragemp bambutz/ragemp
+docker run --name ragemp -p 22005:22005/udp -p 22006:22006 -v /opt/ragemp:/ragemp bambutz/ragemp
 ```
 
 ### Variables
@@ -36,7 +36,6 @@ The variables have been implemented with default values, so they do not have to 
 - RAGEMP_VOICE_CHAT_SAMPLE_RATE = 24000
 
 ### Ports
-- 20005
 - 22005/udp
 - 22006
 
