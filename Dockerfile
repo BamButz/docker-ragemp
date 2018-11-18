@@ -19,7 +19,9 @@ RUN apt update && \
 	chmod +x /serverfiles/server && \
 	mkdir /ragemp
 
+ADD entrypoint.sh /home/entrypoint.sh
+ADD conf.json /serverfiles/conf.json
+
 VOLUME /ragemp
 
-ADD entrypoint.sh /home/entrypoint.sh
 ENTRYPOINT ["sh", "/home/entrypoint.sh"]
