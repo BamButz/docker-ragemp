@@ -33,7 +33,7 @@ The variables have been implemented with default values, so they do not have to 
 - RAGEMP_CSHARP=false
 - RAGEMP_ENABLE_HTTP_SECURITY=false
 - RAGEMP_VOICE_CHAT=false
-- RAGEMP_VOICE_CHAT_SAMPLE_RATE = 24000
+- RAGEMP_VOICE_CHAT_SAMPLE_RATE=24000
 
 ### Ports
 - 22005/udp
