@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "Copy server files"
-cp -v -R /serverfiles/* /ragemp/
+cp -v -p -R /serverfiles/* /ragemp/
 
 echo "Set config variables"
 sed "s/{ANNOUNCE}/${RAGEMP_ANNOUNCE:=false}/g" -i /ragemp/conf.json
