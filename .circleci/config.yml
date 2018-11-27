@@ -1,0 +1,22 @@
+version: 2.1
+
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      - run:
+          name: Publish Image
+          command: |
+            docker build -t bambutz/ragemp:latest
+            docker login -u $DOCKER_USER -p $DOCKER_PASS
+            docker push bambutz/ragemp:latest
+
+workflows:
+  version: 2
+  build:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only: master
