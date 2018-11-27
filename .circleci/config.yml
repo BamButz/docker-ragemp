@@ -8,7 +8,7 @@ jobs:
       - run:
           name: Publish Image
           command: |
-            docker build -t bambutz/ragemp:latest
+            docker build -t bambutz/ragemp:latest .
             docker login -u $DOCKER_USER -p $DOCKER_PASS
             docker push bambutz/ragemp:latest
 
