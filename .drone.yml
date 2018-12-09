@@ -1,0 +1,19 @@
+kind: pipeline
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: publish
+  image: plugins/docker
+  settings:
+    password:
+      from_secret: docker_password
+    repo: bambutz/ragemp
+    tags: latest
+    username: bambutz
+  when:
+    branch:
+    - master
