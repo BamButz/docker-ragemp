@@ -11,7 +11,7 @@ EXPOSE 22006
 
 RUN apt update && \
     apt install wget gcc -y && \
-    wget -O /tmp/server.tar.gz https://cdn.rage.mp/lin/ragemp-srv-036.tar.gz && \
+    wget -O /tmp/server.tar.gz https://cdn.rage.mp/lin/ragemp-srv-037.tar.gz && \
 	tar -xzf /tmp/server.tar.gz -C /tmp && \
 	mkdir /serverfiles && \
 	mv /tmp/ragemp-srv/server /serverfiles/server && \
