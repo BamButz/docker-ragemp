@@ -29,4 +29,10 @@ sed "s/{VOICE_CHAT_SAMPLE_RATE}/${RAGEMP_VOICE_CHAT_SAMPLE_RATE:=24000}/g" -i /r
 
 echo "Run Server"
 cd /ragemp
-/ragemp/server
+
+if [ "$INSPECT" = true ]; then
+	echo "INSPECT enabled"
+	/ragemp/server --inspect
+else
+	/ragemp/server
+fi
