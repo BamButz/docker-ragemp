@@ -1,3 +1,6 @@
+[![](https://images.microbadger.com/badges/version/bambutz/ragemp.svg)](https://microbadger.com/images/bambutz/ragemp "Get your own version badge on microbadger.com")
+[![](https://images.microbadger.com/badges/image/bambutz/ragemp.svg)](https://microbadger.com/images/bambutz/ragemp "Get your own image badge on microbadger.com")
+
 # docker-ragemp
 Run RAGE Multiplayer in a dockerized environment.
 
