@@ -1,8 +1,8 @@
-![GitHub](https://img.shields.io/github/license/bambutz/docker-ragemp.svg)
-![Docker Stars](https://img.shields.io/docker/stars/bambutz/ragemp.svg)
-![Docker Pulls](https://img.shields.io/docker/pulls/bambutz/ragemp.svg)
-![MicroBadger Layers](https://img.shields.io/microbadger/layers/bambutz/ragemp.svg)
-![MicroBadger Size](https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg)
+[![GitHub](https://img.shields.io/github/license/bambutz/docker-ragemp.svg)](#)
+[![Docker Stars](https://img.shields.io/docker/stars/bambutz/ragemp.svg)](#)
+[![Docker Pulls](https://img.shields.io/docker/pulls/bambutz/ragemp.svg)](#)
+[![MicroBadger Layers](https://img.shields.io/microbadger/layers/bambutz/ragemp.svg)](#)
+[![MicroBadger Size](https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg)](#)
 
 # docker-ragemp
 Run RAGE Multiplayer in a dockerized environment.
