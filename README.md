@@ -1,6 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![](https://images.microbadger.com/badges/version/bambutz/ragemp.svg)](https://microbadger.com/images/bambutz/ragemp "Get your own version badge on microbadger.com")
-[![](https://images.microbadger.com/badges/image/bambutz/ragemp.svg)](https://microbadger.com/images/bambutz/ragemp "Get your own image badge on microbadger.com")
+![GitHub](https://img.shields.io/github/license/bambutz/docker-ragemp.svg)
+![Docker Stars](https://img.shields.io/docker/stars/bambutz/ragemp.svg)
+![Docker Pulls](https://img.shields.io/docker/pulls/bambutz/ragemp.svg)
+![MicroBadger Layers](https://img.shields.io/microbadger/layers/bambutz/ragemp.svg)
+![MicroBadger Size](https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg)
 
 # docker-ragemp
 Run RAGE Multiplayer in a dockerized environment.
