@@ -1,20 +1,33 @@
-[![GitHub](https://img.shields.io/github/license/bambutz/docker-ragemp.svg)](#)
-[![Docker Stars](https://img.shields.io/docker/stars/bambutz/ragemp.svg)](#)
-[![Docker Pulls](https://img.shields.io/docker/pulls/bambutz/ragemp.svg)](#)
-[![MicroBadger Layers](https://img.shields.io/microbadger/layers/bambutz/ragemp.svg)](#)
-[![MicroBadger Size](https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg)](#)
+<h1 align="center">Welcome to docker-ragemp 👋</h1>
+<p>
+  <a href="https://github.com/BamButz/docker-ragemp/blob/master/LICENSE">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/ragemp">
+    <img alt="Docker: Stars" src="https://img.shields.io/docker/stars/bambutz/ragemp.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/ragemp">
+    <img alt="Docker: Pulls" src="https://img.shields.io/docker/pulls/bambutz/ragemp.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/ragemp">
+    <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/ragemp.svg" target="_blank" />
+  </a>
+  <a href="https://hub.docker.com/r/bambutz/ragemp">
+    <img alt="Docker: Image size" src="https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg" target="_blank" />
+  </a>
+</p>
 
-# docker-ragemp
-Run RAGE Multiplayer in a dockerized environment.
+> Run RAGE Multiplayer in a dockerized environment.
 
-https://hub.docker.com/r/bambutz/ragemp/
+### 🏠 [Homepage](https://github.com/BamButz/docker-ragemp)
 
-### Sample
+## Usage
+
 ```sh
 docker run --name ragemp -p 22005:22005/udp -p 22006:22006 -v /opt/ragemp:/ragemp bambutz/ragemp
 ```
 
-### Variables
+## Variables
 
 The variables have been implemented with default values, so they do not have to be set.
 
@@ -41,9 +54,29 @@ The variables have been implemented with default values, so they do not have to 
 - RAGEMP_VOICE_CHAT=false
 - RAGEMP_VOICE_CHAT_SAMPLE_RATE=24000
 
-### Ports
+## Ports
 - 22005/udp
 - 22006
 
-### Volumes
-/ragemp
+## Volumes
+- /ragemp
+
+## Author
+
+👤 [@BamButz](https://github.com/BamButz)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/BamButz/docker-ragemp/issues).
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2019 [BamButz](https://github.com/BamButz).<br />
+This project is [MIT](https://github.com/BamButz/docker-ragemp/blob/master/LICENSE) licensed.
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
