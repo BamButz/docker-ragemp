@@ -20,5 +20,6 @@
 	"csharp": {CSHARP},
 	"enable-http-security": {ENABLE_HTTP_SECURITY},
 	"voice-chat": {VOICE_CHAT},
-	"voice-chat-sample-rate": {VOICE_CHAT_SAMPLE_RATE}
+	"voice-chat-sample-rate": {VOICE_CHAT_SAMPLE_RATE},
+	"NODE_COMMANDLINE_FLAGS": "{NODE_COMMANDLINE_FLAGS}"
 }
