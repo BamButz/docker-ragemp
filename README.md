@@ -49,10 +49,15 @@ The variables have been implemented with default values, so they do not have to 
 - RAGEMP_MIN_FPS=24
 - RAGEMP_MAX_PACKET_LOSS=0.2
 - RAGEMP_ALLOW_CEF_DEBUGGING=false
-- RAGEMP_CSHARP=false
+- RAGEMP_CSHARP=disabled
 - RAGEMP_ENABLE_HTTP_SECURITY=false
 - RAGEMP_VOICE_CHAT=false
 - RAGEMP_VOICE_CHAT_SAMPLE_RATE=24000
+- NODE_COMMANDLINE_FLAGS=
+
+### NODE_COMMANDLINE_FLAGS
+
+Set to "--inspect" to enable NodeJS debugging feature (available with RAGE 1.1+)
 
 ## Ports
 - 22005/udp
