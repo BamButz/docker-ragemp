@@ -13,7 +13,7 @@
     <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/ragemp.svg" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/ragemp">
-    <img alt="Docker: Image size" src="https://img.shields.io/microbadger/image-size/bambutz/ragemp.svg" target="_blank" />
+    <img alt="Docker: Build status" src="https://img.shields.io/docker/cloud/build/bambutz/ragemp" target="_blank" />
   </a>
 </p>
 
