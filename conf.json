@@ -17,7 +17,7 @@
 	"min-fps": {MIN_FPS},
 	"max-packet-loss": {MAX_PACKET_LOSS},
 	"allow-cef-debugging": {ALLOW_CEF_DEBUGGING},
-	"csharp": {CSHARP},
+	"csharp": "{CSHARP}",
 	"enable-http-security": {ENABLE_HTTP_SECURITY},
 	"voice-chat": {VOICE_CHAT},
 	"voice-chat-sample-rate": {VOICE_CHAT_SAMPLE_RATE},
