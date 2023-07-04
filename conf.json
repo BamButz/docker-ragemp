@@ -21,5 +21,17 @@
 	"enable-http-security": {ENABLE_HTTP_SECURITY},
 	"voice-chat": {VOICE_CHAT},
 	"voice-chat-sample-rate": {VOICE_CHAT_SAMPLE_RATE},
-	"NODE_COMMANDLINE_FLAGS": "{NODE_COMMANDLINE_FLAGS}"
+    "fastdl-host": "{FASTDL_HOST}",
+    "server-side-weapons-only-mode": {SERVER_SIDE_WEAPONS_ONLY_MODE},
+    "fqdn": "{FQDN}",
+    "resources-compression-level": {RESOURCES_COMPRESSION_LEVEL},
+	"node-commandline-flags": "{NODE_COMMANDLINE_FLAGS}",
+    "synchronization-extrapolation-multiplier": {SYNCHRONIZATION_EXTRAPOLATION_MULTIPLIER},
+    "http-threads": {HTTP_THREADS},
+    "trigger-compression-logging": {TRIGGER_COMPRESSION_LOGGING},
+    "trigger-compression-training": {TRIGGER_COMPRESSION_TRAINING},
+    "trigger-compression-dictionary": "{TRIGGER_COMPRESSION_DICTIONARY}",
+    "create-fastdl-snapshot": {CREATE_FASTDL_SNAPSHOT},
+    "disable-client-packages-ram-cache": {DISABLE_CLIENT_PACKAGES_RAM_CACHE},
+    "client-packages-shared-folder": "{CLIENT_PACKAGES_SHARED_FOLDER}"
 }

@@ -1,4 +1,4 @@
-FROM debian:9-slim
+FROM debian:stable-slim
 LABEL maintainer="BamButz \"bambutz@cryptonica.de\""
 
 # Expose Ports
@@ -10,15 +10,14 @@ EXPOSE 22006
 # ------------------------
 
 RUN apt update && \
-    apt install wget gcc libunwind8 icu-devtools curl libssl-dev -y && \
-    wget -O /tmp/server.tar.gz https://cdn.rage.mp/lin/ragemp-srv-037.tar.gz && \
+    apt install wget gcc libunwind8 icu-devtools curl libssl-dev procps -y && \
+    wget -O /tmp/server.tar.gz https://cdn.rage.mp/updater/prerelease/server-files/linux_x64.tar.gz && \
 	tar -xzf /tmp/server.tar.gz -C /tmp && \
 	mkdir /serverfiles && \
-	mv /tmp/ragemp-srv/server /serverfiles/server && \
-	mv /tmp/ragemp-srv/bt.dat /serverfiles/bt.dat && \
-	chmod +x /serverfiles/server && \
-	wget -O /tmp/linux-bridge.tar.gz https://cdn.rage.mp/lin/bridge-linux-037.tar.gz && \
-	tar -xzf /tmp/linux-bridge.tar.gz -C /serverfiles && \
+	mv /tmp/ragemp-srv/ragemp-server /serverfiles/ragemp-server && \
+	mv /tmp/ragemp-srv/bin /serverfiles/bin && \
+    mv /tmp/ragemp-srv/dotnet /serverfiles/dotnet && \
+	chmod +x /serverfiles/ragemp-server && \
 	mkdir /ragemp
 
 ADD entrypoint.sh /home/entrypoint.sh
