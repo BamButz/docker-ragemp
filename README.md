@@ -10,10 +10,7 @@
     <img alt="Docker: Pulls" src="https://img.shields.io/docker/pulls/bambutz/ragemp.svg" target="_blank" />
   </a>
   <a href="https://hub.docker.com/r/bambutz/ragemp">
-    <img alt="Docker: Layers" src="https://img.shields.io/microbadger/layers/bambutz/ragemp.svg" target="_blank" />
-  </a>
-  <a href="https://hub.docker.com/r/bambutz/ragemp">
-    <img alt="Docker: Build status" src="https://img.shields.io/docker/cloud/build/bambutz/ragemp" target="_blank" />
+    <img alt="GitHub Workflow Status" src="https://github.com/bambutz/docker-ragemp/actions/workflows/deploy-image.yaml/badge.svg">
   </a>
 </p>
 
